@@ -1,0 +1,14 @@
+(module Proto_2x2 (layer F.Cu) (tedit 5298DA88)
+  (descr "Prototype space, 2x2, 2.54mm pitch")
+  (tags "PROTOTYPE 2x2")
+  (fp_text reference REF* (at 0 -0.635) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.2032)))
+  )
+  (fp_text value VAL* (at 0 0.635) (layer F.SilkS) hide
+    (effects (font (size 1.016 0.9144) (thickness 0.2032) italic))
+  )
+  (pad 1 thru_hole circle (at -1.27 -1.27) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 1.27 -1.27) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole circle (at -1.27 1.27) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 4 thru_hole circle (at 1.27 1.27) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+)

@@ -1,0 +1,12 @@
+(module Hole_2mm (layer F.Cu) (tedit 5567B189)
+  (descr "Mounting Hole, 2 mm")
+  (tags "HOLE 2MM")
+  (fp_text reference REF* (at 0 -3.048) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.2032)))
+  )
+  (fp_text value VAL* (at 0 3.175) (layer F.SilkS) hide
+    (effects (font (size 1.016 0.9144) (thickness 0.2032) italic))
+  )
+  (fp_circle (center 0 0) (end 0 -1.75) (layer F.SilkS) (width 0.254))
+  (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 2) (layers *.Cu *.Mask F.SilkS))
+)

@@ -1,0 +1,986 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 16550
+D Universal Asynchronous Receiver/Transmitter (UART)
+K UART 16550 16450 8250
+$ENDCMP
+#
+$CMP 16550-PLCC
+D Universal Asynchronous Receiver/Transmitter (UART)
+K UAR 16550 16450
+$ENDCMP
+#
+$CMP 24C16
+D I2C Serial EEPROM
+K EEPROM Serial
+$ENDCMP
+#
+$CMP 24C512
+D I2C Serial EEPROM
+K I2C MEMORY EEPROM
+F memory/24xx512.pdf
+$ENDCMP
+#
+$CMP 2716
+D 2Kx8 EPROM
+K 2Kx8 EPROM
+$ENDCMP
+#
+$CMP 27C128
+D 16Kx8 EPROM
+K 16Kx8 EPROM
+$ENDCMP
+#
+$CMP 27C256
+D 32Kx8 EPROM 
+K 32Kx8 EPROM 
+$ENDCMP
+#
+$CMP 28C256
+D 32Kx8 EEPROM
+K 32Kx8 EEPROM
+$ENDCMP
+#
+$CMP 29F010
+D Parallel Flash ROM, 128 KiB
+K Flash ROM
+$ENDCMP
+#
+$CMP 29F040
+D Parallel Flash ROM, 512 KiB
+$ENDCMP
+#
+$CMP 74141
+D BCD to Decimal Decoder/Driver
+K TTL Decoder Decimal Nixie
+$ENDCMP
+#
+$CMP 74198
+D 8-bit Shift Register
+K shift register
+$ENDCMP
+#
+$CMP 74C923
+D 20 Key encoder
+K Keypad Encoder
+$ENDCMP
+#
+$CMP 74HC1G125
+D Quad 3-State Buffer
+K TTL 3-State Buffer
+$ENDCMP
+#
+$CMP 74HC4017
+D Jonhson Counter ( 10 outputs )
+K CNT CNT10
+$ENDCMP
+#
+$CMP 74HC4511
+D BCD to 7 Segment Latch/Decoder/Drivers
+K 7SEGMENT DECODER
+$ENDCMP
+#
+$CMP 74HCT4060
+D 14-stage Binary Ripple Counter with Oscillator
+K counter divider 14-stage oscillator
+$ENDCMP
+#
+$CMP 74HCT4511
+D BCD to 7 Segment Latch/Decoder/Drivers
+K 7SEGMENT DECODER
+$ENDCMP
+#
+$CMP 74LS00
+D Quad 2-Input NAND Gate
+K TTL NAND2
+$ENDCMP
+#
+$CMP 74LS02
+D Quad 2-Input NOR Gate
+K TTL NOR2
+$ENDCMP
+#
+$CMP 74LS04
+D Hex Inverters
+K TTL NOT INVERTER
+$ENDCMP
+#
+$CMP 74LS06
+D Hex Inverters with Open Collector Outputs
+K TTL NOT INVERTER OC
+$ENDCMP
+#
+$CMP 74LS07
+D Hex Buffers and Drivers with Open-Collector High-Voltage Outputs
+K TTL OC BUFFER
+$ENDCMP
+#
+$CMP 74LS08
+D Quad 2-Input AND Gate
+K TTL AND2
+$ENDCMP
+#
+$CMP 74LS10
+D Triple 3-Input NAND Gate
+K TTL NAND3
+$ENDCMP
+#
+$CMP 74LS11
+D Triple 3-Input AND Gate
+K TTL AND3
+$ENDCMP
+#
+$CMP 74LS125
+D Quad 3-State Buffer
+K TTL 3-State Buffer
+$ENDCMP
+#
+$CMP 74LS138
+D 3-Line To 8-Line Decoder/Demultiplexer
+K 3-to-8 decoder demultiplexer
+$ENDCMP
+#
+$CMP 74LS139
+D Dual 2-Line To 4-Line Decoder/Demultiplexer
+K 2-to-4 decoder demultiplexer
+$ENDCMP
+#
+$CMP 74LS14
+D Hex Schmitt-Trigger Inverters
+K TTL NOT INVERTER SCHMITT TRIGGER
+$ENDCMP
+#
+$CMP 74LS145
+D 1-of-10 Decoder/Driver
+K 1-of-10 Decoder Driver
+$ENDCMP
+#
+$CMP 74LS14_PWR
+D Hex Schmitt-Trigger Inverters
+K TTL NOT INVERTER SCHMITT TRIGGER
+$ENDCMP
+#
+$CMP 74LS153
+D Dual 4-Line to 1-Line Data Selectors/Multiplexers
+K Selector Mulitplexer
+$ENDCMP
+#
+$CMP 74LS157
+D Quad 1-of-2 Data Selectors/Multiplexers
+K Selector Mulitplexer
+$ENDCMP
+#
+$CMP 74LS175
+D Quad D Flip-Flop
+K TTL D Flip-Flop
+$ENDCMP
+#
+$CMP 74LS20
+D Dual 4-Input NAND Gate
+K TTL NAND4
+$ENDCMP
+#
+$CMP 74LS21
+D Dual 4-Input AND Gate
+K TTL AND4
+$ENDCMP
+#
+$CMP 74LS240
+D 8 bits Bus Buffer 3 State out
+K TTL Buffer BUS 3State
+$ENDCMP
+#
+$CMP 74LS244
+D 8 bits Bus Buffer 3 State out
+K TTL Buffer BUS 3State
+$ENDCMP
+#
+$CMP 74LS245
+D Octal Bus Transceiver
+K TTL bus transceiver
+$ENDCMP
+#
+$CMP 74LS273
+D Octal D Flip-Flop with Clear
+K TTL D Flip-Flop
+$ENDCMP
+#
+$CMP 74LS30
+D 8-Input NAND Gate
+K TTL NAND8
+$ENDCMP
+#
+$CMP 74LS32
+D Quad 2-Input OR Gate
+K TTL OR2
+$ENDCMP
+#
+$CMP 74LS373
+D Octal D Latch With 3-State Outputs
+K TTL D latch
+$ENDCMP
+#
+$CMP 74LS390
+D Divide by 12 counter
+K counter divider 12
+$ENDCMP
+#
+$CMP 74LS393
+D Dual 4-bit Binary Counter
+K counter divider 4-bit 16
+$ENDCMP
+#
+$CMP 74LS46
+D BCD to 7 segments Driver, Open Collect, 15V outputs
+K TTL DECOD DECOD7 OpenCol
+$ENDCMP
+#
+$CMP 74LS47
+D BCD to 7 segments Driver, Open Collect, 30V outputs
+K TTL DECOD DECOD7 OpenCol
+$ENDCMP
+#
+$CMP 74LS540
+D 8 bits Bus Buffer 3 State out
+K TTL Buffer BUS 3State
+$ENDCMP
+#
+$CMP 74LS541
+D 8 bits Bus Buffer 3 State out
+K TTL Buffer BUS 3State
+$ENDCMP
+#
+$CMP 74LS573
+D Octal D Latch With 3-State Outputs
+K TTL D latch
+$ENDCMP
+#
+$CMP 74LS670
+D 4x4 Register File With 3-State Outputs
+K TTL register file 3State
+$ENDCMP
+#
+$CMP 74LS688
+D 8-Bit Magnitude Comparator
+K Magnitude Comparator
+$ENDCMP
+#
+$CMP 74LS74
+D Dual D-Type Positive-Edge Triggered Flip-Flops With Preset and Clear
+K D Trigger Flip-flop
+$ENDCMP
+#
+$CMP 74LS74_PWR
+D Dual D-Type Positive-Edge Triggered Flip-Flops With Preset and Clear
+K D Trigger Flip-flop
+$ENDCMP
+#
+$CMP 74LS86
+D Quad 2-Input XOR Gate
+K TTL XOR
+$ENDCMP
+#
+$CMP 74LS90
+D Decade counter
+K decade counter 10
+$ENDCMP
+#
+$CMP 74LS92
+D Divide by 12 counter
+K counter divider 12
+$ENDCMP
+#
+$CMP 74LVC1G74DC
+D Dual D-Type Positive-Edge Triggered Flip-Flops With Preset and Clear
+K D Trigger Flip-flop
+$ENDCMP
+#
+$CMP 8080A
+D Intel 8080A Microprocessor, 8-bit, CMOS
+K Intel 8080A CPU Microprocessor
+$ENDCMP
+#
+$CMP 8085
+D 8085 Microprocessor, 8-bit
+K 8085 CPU Microprocessor
+$ENDCMP
+#
+$CMP 8086
+D Intel 8086 16-bit Mircoprocessor
+K Intel 8086 CPU
+$ENDCMP
+#
+$CMP 8087
+D Intel 8087 Math Copocessor
+K Intel 8087 FPU
+$ENDCMP
+#
+$CMP 8088
+D Intel 8088 16-bit Mircoprocessor
+K Intel 8088 CPU
+$ENDCMP
+#
+$CMP 8155
+D 2Kx8 SRAM with I/O and Timer
+K 2Kx8 SRAM I/O Timer
+$ENDCMP
+#
+$CMP 82077AA
+D Floppy Disk Controller
+K FDC 82077AA PC8477
+$ENDCMP
+#
+$CMP 8224
+D 8224 Clock Generator for 8080 CPU
+K 8224 8080 clock generator
+$ENDCMP
+#
+$CMP 8231A
+D Arithmetic Processing Unit, 8-bit
+K 8231A Am9511A APU FPU Arithmetic Floating Point
+$ENDCMP
+#
+$CMP 8237
+D 8237 DMA Controller
+K 8237 DMA Controller DMAC
+$ENDCMP
+#
+$CMP 8242KBD
+D 8242 Keyboard Controller
+K 8242 Keyboard Controller
+$ENDCMP
+#
+$CMP 8242KBD_PLCC
+D 8242 Keyboard Controller
+K 8242 Keyboard Controller
+$ENDCMP
+#
+$CMP 8251A
+D Universal Synchronous/Asynchronous Receiver/Transmitter
+K USART UART
+$ENDCMP
+#
+$CMP 8254
+D Programmable Interval Timer (PIT)
+K Programmable Interval Timer PIT
+$ENDCMP
+#
+$CMP 8255
+D Programmable Peripheral Interface (PPI)
+K Programmable Peripheral Interface PPI
+$ENDCMP
+#
+$CMP 8257
+D 8237 DMA Controller
+K 8237 DMA Controller DMAC
+$ENDCMP
+#
+$CMP 8275
+D 8275 Programmable CRT Controller
+K 8275 CRT controller
+$ENDCMP
+#
+$CMP 8282
+D 8-bit latch
+K 8bit latch
+$ENDCMP
+#
+$CMP 8284
+D 8086/8088 clock generator
+K 8086/8088 clock generator
+$ENDCMP
+#
+$CMP 82C100
+D Chips and Technologies 82C100 IBM PC/XT Compatible Chipset
+K Chips Technologies 82C100 Chipset
+$ENDCMP
+#
+$CMP 93LC46A
+D SPI Serial EEPROM
+K EEPROM Serial SPI
+$ENDCMP
+#
+$CMP 93LC46C
+D SPI Serial EEPROM
+K EEPROM Serial SPI
+$ENDCMP
+#
+$CMP AD1816AJS
+D Analog Devices AD1816AJS Sound Controller
+K AD1816AJS SB SOUND
+$ENDCMP
+#
+$CMP AD724
+D RGB to NTSC/PAL Encoder
+K RGB NTSC PAL Encoder
+$ENDCMP
+#
+$CMP AS6C1008
+D SRAM 128Kx8
+K SRAM 128Kx8
+$ENDCMP
+#
+$CMP AS6C4008
+D SRAM 512Kx8
+K SRAM 512Kx8
+$ENDCMP
+#
+$CMP AS6C62256
+D SRAM 32Kx8
+K SRAM 32Kx8
+$ENDCMP
+#
+$CMP AS6C62256_PWR
+D SRAM 32Kx8
+K SRAM 32Kx8
+$ENDCMP
+#
+$CMP ATF1508AS-PLCC
+D Atmel CPLD
+K Atmel CPLD
+$ENDCMP
+#
+$CMP ATF16V8B
+D Electrically-Erasable Programmable Logic Device
+K EE PLD GAL
+$ENDCMP
+#
+$CMP ATMEGA328P
+D ATMega Micro Controller
+K ATMega Micro Controller
+$ENDCMP
+#
+$CMP ATMEGA328P-A
+D ATMega Micro Controller TQFP32
+K ATMega Micro Controller
+$ENDCMP
+#
+$CMP ATX_POWER_20
+D ATX Power Connector - 20 Pin 
+K ATX Power Connector 20 Pin 
+$ENDCMP
+#
+$CMP AY-3-8912A
+D 3-voice Programmable Sound Generator (PSG)
+K Programmable Sound Generator PSG
+$ENDCMP
+#
+$CMP BMC150
+D eCompass with 3-axis Geomagnetic Sensor and 12-bit 3-axis Accelerometer
+K COMPASS MAGNETOMETER ACCELEROMETER
+$ENDCMP
+#
+$CMP BMP280
+D Digital Pressure Sensor
+K Digital Pressure Sensor
+$ENDCMP
+#
+$CMP BUSAT_DEV
+D ISA BUS Connector, 16 bits, Device
+K ISA
+$ENDCMP
+#
+$CMP BUSAT_HOST
+D ISA BUS Connector, 16 bits, Host (SBC)
+K ISA
+$ENDCMP
+#
+$CMP BUSPC_DEV
+D ISA BUS Connector, 8 bits, Device
+K ISA
+$ENDCMP
+#
+$CMP BUSPC_HOST
+D ISA BUS Connector, 8 bits, Host (SBC)
+$ENDCMP
+#
+$CMP CONN_CF_CARD
+D Compact Flash Card Socket
+K Compact Flash Card CF
+$ENDCMP
+#
+$CMP CONN_ZX81
+D ZX81 Extension Connector
+K ZX81 Extension Connector
+$ENDCMP
+#
+$CMP CONN_ZX_SPECTRUM
+D ZX Spectrum Extension Connector
+K ZX Spectrum Extension Connector
+$ENDCMP
+#
+$CMP CXA1645
+D RGB to NTSC/PAL Encoder
+K RGB NTSC PAL Encoder
+$ENDCMP
+#
+$CMP Conn_DIP-14
+D DIP-14 IC Socket
+K DIP-14 IC Socket
+$ENDCMP
+#
+$CMP Conn_DIP-20
+D DIP-20 IC Socket
+K DIP-20 IC Socket
+$ENDCMP
+#
+$CMP Conn_RJ45_Mag
+D RJ45 with transformer + LEDs Amphenol RJMG16XXX8XX1XX
+K RJ45 Magneticis RJmag
+$ENDCMP
+#
+$CMP Crystal_4_Pin
+D 4 pin crystal
+K Quartz, Resonator, Ceramic, Filter
+$ENDCMP
+#
+$CMP Crystal_Ceralock
+D muRata CERALOCK ceramic resonator with built-in load capacitors
+K ceralock resonator
+$ENDCMP
+#
+$CMP D41464
+D DRAM 64Kbit x 4
+K DRAM 64Kx4
+$ENDCMP
+#
+$CMP DE15
+K CONN
+$ENDCMP
+#
+$CMP DE9
+K CONN
+$ENDCMP
+#
+$CMP DS12885
+D Maxim/Dallas DS12885 RTC
+K Maxim Dallas DS12885 RTC
+$ENDCMP
+#
+$CMP DS12C887
+D Maxim/Dallas DS12C887 RTC
+K Maxim Dallas DS12C887 RTC
+$ENDCMP
+#
+$CMP DS1307
+D I2C RTC
+K I2C RTC
+F maxim/DS1307.pdf
+$ENDCMP
+#
+$CMP DS3231
+D I2C RTC with integrated TCXO oscillator
+K I2C RTC TCXO
+$ENDCMP
+#
+$CMP DS3231M
+D I2C RTC with integrated MEMS resonator
+K I2C RTC MEMS
+$ENDCMP
+#
+$CMP FDC37C669
+D PC 98/99 Compliant Super I/O Floppy Disk Controller with Infrared Support
+K FDC37C669 Floppy Controller FDC
+$ENDCMP
+#
+$CMP FE2010
+D Faraday FE2010 IBM PC/XT Compatible Chipset
+K Faraday FE2010 Chipset
+$ENDCMP
+#
+$CMP FE2010A
+D Faraday FE2010A IBM PC/XT Compatible Chipset
+K Faraday FE2010A Chipset
+$ENDCMP
+#
+$CMP FT231XS
+D USB to Serial UART Interface
+K USB Serial
+$ENDCMP
+#
+$CMP FT232RL
+D USB to Serial UART Interface
+K USB Serial
+$ENDCMP
+#
+$CMP HDSP-5501
+D 7 segments display, 10 pin, Common Annode, High Efficiency Red
+K DISPLAY LED 10PIN HDSP-5501 CA
+$ENDCMP
+#
+$CMP HDSP-5503
+D 7 segments display, 10 pin, Common Cathode, High Efficiency Red
+K DISPLAY LED 10PIN HDSP-5503
+$ENDCMP
+#
+$CMP HDSP-5601
+D 7 segments display, 10 pin, Common Annode, Green
+K DISPLAY LED 10PIN HDSP-5601
+$ENDCMP
+#
+$CMP HDSP-5603
+D 7 segments display, 10 pin, Common Cathode, Green
+K DISPLAY LED 10PIN HDSP-5603
+$ENDCMP
+#
+$CMP HDSP-5701
+D 7 segments display, 10 pin, Common Annode, Yellow
+K DISPLAY LED 10PIN HDSP-5701
+$ENDCMP
+#
+$CMP HDSP-5703
+D 7 segments display, 10 pin, Common Cathode, Yellow
+K DISPLAY LED 10PIN HDSP-5703
+$ENDCMP
+#
+$CMP HDSP-H151
+D 7 segments display, 10 pin, Common Annode, AlGaAs Red
+K DISPLAY LED 10PIN HDSP-H151
+$ENDCMP
+#
+$CMP HDSP-H153
+D 7 segments display, 10 pin, Common Cathode, AlGaAs Red
+K DISPLAY LED 10PIN HDSP-H153
+$ENDCMP
+#
+$CMP HOLE
+D Mounting Hole
+K hole
+$ENDCMP
+#
+$CMP IN-12B
+D IN-12B Cold-cathode Indicator
+K Cold-cathode Indicator Display Nixie Tube IN-12B IN-12A
+$ENDCMP
+#
+$CMP Intel_Quark_D1000
+D Intel Quark D1000 Microcontroller
+K Intel Quark D1000 MCU
+$ENDCMP
+#
+$CMP Intel_Quark_D2000
+D Intel Quark Microcontroller D2000
+K Intel Quark D2000 MCU
+$ENDCMP
+#
+$CMP JACK_3.5MM_STEREO_SWITCHED
+D Audio Jack 3.5 mm Connector TRS Switched
+K Audio Jack 3.5mm Connector TRS Switched
+$ENDCMP
+#
+$CMP JACK_TRS_3PINS
+D Audio Jack TRS 3 pins
+K audio jack connector TRS
+$ENDCMP
+#
+$CMP JACK_TRS_5PINS
+D Audio Jack TRS 5 pins
+K audio jack connector TRS
+$ENDCMP
+#
+$CMP JOYSTICK
+D Joystick
+K JOYSTICK
+$ENDCMP
+#
+$CMP LDO_FIXED_SOT23
+D Fixed LDO
+K Fixed LDO
+$ENDCMP
+#
+$CMP LM386
+D Low Voltage Audio Power Amplifier
+K Low Voltage Audio Power Amplifier
+$ENDCMP
+#
+$CMP LM4780
+D Audio Power Amplifier Stereo 60W
+K Audio Power Amplifier Stereo 60W
+$ENDCMP
+#
+$CMP LP2951-N
+D Adjustable LDO
+K Adjustable LDO
+$ENDCMP
+#
+$CMP M24LR64
+D Dynamic NFC/RFID tag IC with 64-Kbit EEPROM, Energy Harvest
+K NFC RFID EEPROM
+$ENDCMP
+#
+$CMP M24SR64
+D Dynamic NFC/RFID tag IC with 64-Kbit EEPROM
+K NFC RFID EEPROM
+$ENDCMP
+#
+$CMP MAN1
+D 7 segments display, 10 pin, Common Annode
+K DISPLAY LED 14PIN MAN1 CA
+$ENDCMP
+#
+$CMP MAN1A
+D 7 segments display, 10 pin, Common Annode
+K DISPLAY LED 14PIN MAN1A CA
+$ENDCMP
+#
+$CMP MAX232
+D RS232 Driver/Receiver
+K RS232 Driver Receiver
+$ENDCMP
+#
+$CMP MAX690
+D Microprocessor Supervisory Circuit
+K Microprocessor Supervisory Circuit
+$ENDCMP
+#
+$CMP MAX691
+D Microprocessor Supervisory Circuit with SRAM Write Protection
+K Microprocessor Supervisory Circuit SRAM Write Protection
+$ENDCMP
+#
+$CMP MCP7940M
+D I2C RTC with SRAM
+K I2C RTC SRAM
+$ENDCMP
+#
+$CMP MLX90615
+D Infra Red Thermometer
+K Infra Red Thermometer I2C
+$ENDCMP
+#
+$CMP MMBT2222A
+D 40V Vce, 1A Ic, NPN, General Purpose Transistor, SOT-223
+K NPN General Puprose Transistor SMD
+F http://www.fairchildsemi.com/ds/PN/PN2222A.pdf
+$ENDCMP
+#
+$CMP MSX_SLOT_HOST
+D MSX Cartrige Slot Connector, Host (Computer)
+$ENDCMP
+#
+$CMP MT4C4256
+D DRAM 256Kbit x 4
+K DRAM 256Kx4
+$ENDCMP
+#
+$CMP NE558
+D Quad Timer
+K Quad Timer
+$ENDCMP
+#
+$CMP OSC
+D Oscillator, Full Can
+K Oscillator, Full Can
+$ENDCMP
+#
+$CMP PCM2902C
+D USB Audio Codec
+K USB Audio Codec
+$ENDCMP
+#
+$CMP PIC12F629
+D PIC Flash Microcontroller
+K PIC Flash Microcontroller
+$ENDCMP
+#
+$CMP PIC12F675
+D PIC Flash Microcontroller
+K PIC Flash Microcontroller
+$ENDCMP
+#
+$CMP PIC16F1454
+D PIC Flash Microcontroller with USB
+K PIC Flash Microcontroller USB
+$ENDCMP
+#
+$CMP PIC16F721
+D PIC Flash Microcontroller
+K PIC Flash Microcontroller
+$ENDCMP
+#
+$CMP PIC16F88
+D PIC Flash Microcontroller
+K PIC Flash Microcontroller
+$ENDCMP
+#
+$CMP Phototransistor
+D Phototransistor
+K Phototransistor
+$ENDCMP
+#
+$CMP RP5C01
+D Real Time Clock with Internal RAM
+K RTC RP5C01 MSX
+$ENDCMP
+#
+$CMP RR4
+D Resistor Array - 5 Resistors SIP
+K R DEV
+$ENDCMP
+#
+$CMP RR5
+D Resistor Array - 5 Resistors SIP
+K R DEV
+$ENDCMP
+#
+$CMP RR9
+D Resistor Array - 9 Resistors SIP
+K R DEV
+$ENDCMP
+#
+$CMP Relay_NO
+D Relay Normally Open
+K Relay Normally Open
+$ENDCMP
+#
+$CMP Relay_Reed_NO
+D Reed Relay Normally Open
+K Reed Relay Normally Open
+$ENDCMP
+#
+$CMP Relay_Reed_NO_With_Diode
+D Reed Relay Normally Open with Diode
+K Reed Relay Normally Open Diode
+$ENDCMP
+#
+$CMP Relay_SPDT
+D Relay SPDT - Omron G5V-1
+K Relay SPDT
+$ENDCMP
+#
+$CMP Rotary_Encoder
+D Rotary Encoder
+K Rotary Encoder
+$ENDCMP
+#
+$CMP Rotary_Encoder_SW
+D Rotary Encoder with Switch
+K Rotary Encoder Switch
+$ENDCMP
+#
+$CMP Switch_DIP_2_Positions
+D DIP Switch 2 Positions
+K DIP Switch
+$ENDCMP
+#
+$CMP Switch_DIP_3_Positions
+D DIP Switch 3 Positions
+K DIP Switch
+$ENDCMP
+#
+$CMP Switch_DIP_4_Positions
+D DIP Switch 4 Positions
+K DIP Switch
+$ENDCMP
+#
+$CMP Switch_DIP_5_Positions
+D DIP Switch 5 Positions
+K DIP Switch
+$ENDCMP
+#
+$CMP Switch_DIP_6_Positions
+D DIP Switch 6 Positions
+K DIP Switch
+$ENDCMP
+#
+$CMP Switch_DIP_7_Positions
+D DIP Switch 7 Positions
+K DIP Switch
+$ENDCMP
+#
+$CMP Switch_DIP_8_Positions
+D DIP Switch 8 Positions
+K DIP Switch
+$ENDCMP
+#
+$CMP Switch_Tactile
+D Tactile Switch
+K Switch Tactile
+$ENDCMP
+#
+$CMP Switch_Tactile_Vertical
+D Tactile Switch - Vertical
+K Switch Tactile Vertical
+$ENDCMP
+#
+$CMP TMP102
+D TMP10x Temperature Sensor With I2C Interface and Alert Function
+K temperature sensor i2c alert
+$ENDCMP
+#
+$CMP TPS3836
+D I2C Temperature Sensor
+K I2C SMBus Two-Wire Temperature Sensor
+$ENDCMP
+#
+$CMP TPS79333-EP
+D TPS79333-EP LDO Voltage Regulator
+K TPS79333 LDO Voltage Regulator
+$ENDCMP
+#
+$CMP TVGA9000I
+D Trident TVGA9000i Super VGA Controller
+K VGA TVGA9000i
+$ENDCMP
+#
+$CMP USB_MICRO_B
+D Micro USB Connector
+K Micro USB Connector
+$ENDCMP
+#
+$CMP USB_PCB
+D Micro USB Connector
+K Micro USB Connector
+$ENDCMP
+#
+$CMP V9938
+D Yamaha V9938 MSX Video
+K MSX MSX2 Video V9938
+$ENDCMP
+#
+$CMP VEML7700
+D Digital Ambient Light Sensor
+K Digital Ambient Light Sensor
+$ENDCMP
+#
+$CMP WM8731
+D I2S Audio Codec
+K I2S Audio Codec
+$ENDCMP
+#
+$CMP YM2149
+D Yamaha YM2149 Software-Controlled Sound Generator
+K YM2149 SSG MSX
+$ENDCMP
+#
+$CMP Z84C00
+D Z80 Microprocessor, 8-bit, CMOS
+K Z80 CPU Microprocessor
+$ENDCMP
+#
+$CMP Z84C30
+D Z80 CTC
+K Z80 CTC
+$ENDCMP
+#
+$CMP Z84C40
+D Z80 SIO/0
+K Z80 SIO
+$ENDCMP
+#
+$CMP Z84C41
+D Z80 SIO/1
+K Z80 SIO
+$ENDCMP
+#
+$CMP Z84C42
+D Z80 SIO/2
+K Z80 SIO
+$ENDCMP
+#
+$CMP ZXLD383
+D LED Driver
+K LED Driver
+$ENDCMP
+#
+#End Doc Library
