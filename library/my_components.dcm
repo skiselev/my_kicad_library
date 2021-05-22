@@ -32,8 +32,8 @@ K 16Kx8 EPROM
 $ENDCMP
 #
 $CMP 27C256
-D 32Kx8 EPROM 
-K 32Kx8 EPROM 
+D 32Kx8 EPROM
+K 32Kx8 EPROM
 $ENDCMP
 #
 $CMP 28C256
@@ -50,6 +50,15 @@ $CMP 29F040
 D Parallel Flash ROM, 512 KiB
 $ENDCMP
 #
+$CMP 29F040_Old
+D Parallel Flash ROM, 512 KiB
+$ENDCMP
+#
+$CMP 37C65
+D Floppy Disk Controller
+K FDC
+$ENDCMP
+#
 $CMP 74141
 D BCD to Decimal Decoder/Driver
 K TTL Decoder Decimal Nixie
@@ -60,14 +69,88 @@ D 8-bit Shift Register
 K shift register
 $ENDCMP
 #
+$CMP 74AHC02
+D Quad 2-Input NOR Gate
+K TTL NOR2
+$ENDCMP
+#
+$CMP 74AHC04
+D Hex Inverters
+K TTL NOT INVERTER
+$ENDCMP
+#
+$CMP 74AHCT02
+D Quad 2-Input NOR Gate
+K TTL NOR2
+$ENDCMP
+#
+$CMP 74AHCT04
+D Hex Inverters
+K TTL NOT INVERTER
+$ENDCMP
+#
+$CMP 74ALS02
+D Quad 2-Input NOR Gate
+K TTL NOR2
+$ENDCMP
+#
+$CMP 74ALS04
+D Hex Inverters
+K TTL NOT INVERTER
+$ENDCMP
+#
+$CMP 74ALS11
+D Triple 3-Input AND Gate
+K TTL AND3
+$ENDCMP
+#
 $CMP 74C923
 D 20 Key encoder
 K Keypad Encoder
 $ENDCMP
 #
+$CMP 74F381
+D Arithmetic logic unit
+K TTL ALU ARITH
+F 74xx/74F382.pdf
+$ENDCMP
+#
+$CMP 74F382
+D Arithmetic logic unit
+K TTL ALU ARITH
+F 74xx/74F382.pdf
+$ENDCMP
+#
+$CMP 74HC02
+D Quad 2-Input NOR Gate
+K TTL NOR2
+$ENDCMP
+#
+$CMP 74HC04
+D Hex Inverters
+K TTL NOT INVERTER
+$ENDCMP
+#
+$CMP 74HC11
+D Triple 3-Input AND Gate
+K TTL AND3
+$ENDCMP
+#
 $CMP 74HC1G125
 D Quad 3-State Buffer
 K TTL 3-State Buffer
+$ENDCMP
+#
+$CMP 74HC381
+D Arithmetic logic unit
+K TTL ALU ARITH
+F 74xx/74F382.pdf
+$ENDCMP
+#
+$CMP 74HC382
+D Arithmetic logic unit
+K TTL ALU ARITH
+F 74xx/74F382.pdf
 $ENDCMP
 #
 $CMP 74HC4017
@@ -78,6 +161,21 @@ $ENDCMP
 $CMP 74HC4511
 D BCD to 7 Segment Latch/Decoder/Drivers
 K 7SEGMENT DECODER
+$ENDCMP
+#
+$CMP 74HCT02
+D Quad 2-Input NOR Gate
+K TTL NOR2
+$ENDCMP
+#
+$CMP 74HCT04
+D Hex Inverters
+K TTL NOT INVERTER
+$ENDCMP
+#
+$CMP 74HCT11
+D Triple 3-Input AND Gate
+K TTL AND3
 $ENDCMP
 #
 $CMP 74HCT4060
@@ -220,9 +318,21 @@ D Octal D Latch With 3-State Outputs
 K TTL D latch
 $ENDCMP
 #
+$CMP 74LS381
+D Arithmetic logic unit
+K TTL ALU ARITH
+F 74xx/74F382.pdf
+$ENDCMP
+#
+$CMP 74LS382
+D Arithmetic logic unit
+K TTL ALU ARITH
+F 74xx/74F382.pdf
+$ENDCMP
+#
 $CMP 74LS390
-D Divide by 12 counter
-K counter divider 12
+D Dual decade ripple counter
+K Dual decade ripple counter
 $ENDCMP
 #
 $CMP 74LS393
@@ -315,9 +425,14 @@ D Intel 8087 Math Copocessor
 K Intel 8087 FPU
 $ENDCMP
 #
-$CMP 8088
-D Intel 8088 16-bit Mircoprocessor
-K Intel 8088 CPU
+$CMP 80C188
+D Intel 80C188 16-bit Mircoprocessor
+K Intel 80C188 CPU
+$ENDCMP
+#
+$CMP 80C188XL
+D Intel 80C188 16-bit Mircoprocessor
+K Intel 80C188 CPU
 $ENDCMP
 #
 $CMP 8155
@@ -337,7 +452,7 @@ $ENDCMP
 #
 $CMP 8231A
 D Arithmetic Processing Unit, 8-bit
-K 8231A Am9511A APU FPU Arithmetic Floating Point
+K Intel 8231A APU FPU Arithmetic Floating Point
 $ENDCMP
 #
 $CMP 8237
@@ -425,6 +540,11 @@ D SRAM 512Kx8
 K SRAM 512Kx8
 $ENDCMP
 #
+$CMP AS6C4008_Old
+D SRAM 512Kx8
+K SRAM 512Kx8
+$ENDCMP
+#
 $CMP AS6C62256
 D SRAM 32Kx8
 K SRAM 32Kx8
@@ -456,13 +576,42 @@ K ATMega Micro Controller
 $ENDCMP
 #
 $CMP ATX_POWER_20
-D ATX Power Connector - 20 Pin 
-K ATX Power Connector 20 Pin 
+D ATX Power Connector - 20 Pin
+K ATX Power Connector 20 Pin
 $ENDCMP
 #
 $CMP AY-3-8912A
 D 3-voice Programmable Sound Generator (PSG)
 K Programmable Sound Generator PSG
+$ENDCMP
+#
+$CMP Am29705
+D 16x4 Bit 2-Port RAM
+K 16x4 2-PORT RAM
+F 74xx/74F382.pdf
+$ENDCMP
+#
+$CMP Am29705A
+D 16x4 Bit 2-Port RAM
+K 16x4 2-PORT RAM
+F 74xx/74F382.pdf
+$ENDCMP
+#
+$CMP Am53C94
+D SCSI Controller
+K SCSI
+F https://www.amd.com/system/files/TechDocs/16506.pdf
+$ENDCMP
+#
+$CMP Am53CF94
+D SCSI Controller
+K SCSI
+F https://www.amd.com/system/files/TechDocs/17348.pdf
+$ENDCMP
+#
+$CMP Am9511A
+D Arithmetic Processing Unit, 8-bit
+K AMD Am9511A APU FPU Arithmetic Floating Point
 $ENDCMP
 #
 $CMP BMC150
@@ -529,6 +678,11 @@ D RJ45 with transformer + LEDs Amphenol RJMG16XXX8XX1XX
 K RJ45 Magneticis RJmag
 $ENDCMP
 #
+$CMP Conn_SIMM30
+D SIMM Memory Module, 30 pin
+K SIMM30 SIMM memory module
+$ENDCMP
+#
 $CMP Crystal_4_Pin
 D 4 pin crystal
 K Quartz, Resonator, Ceramic, Filter
@@ -552,6 +706,18 @@ $CMP DE9
 K CONN
 $ENDCMP
 #
+$CMP DS1233
+D 5V EconoReset
+K supply voltage supervisor
+F https://datasheets.maximintegrated.com/en/ds/DS1233.pdf
+$ENDCMP
+#
+$CMP DS1233_SOT223
+D 5V EconoReset
+K supply voltage supervisor
+F https://datasheets.maximintegrated.com/en/ds/DS1233.pdf
+$ENDCMP
+#
 $CMP DS12885
 D Maxim/Dallas DS12885 RTC
 K Maxim Dallas DS12885 RTC
@@ -568,6 +734,12 @@ K I2C RTC
 F maxim/DS1307.pdf
 $ENDCMP
 #
+$CMP DS1813
+D 5V EconoReset with Pushbutton
+K supply voltage supervisor button
+F https://datasheets.maximintegrated.com/en/ds/DS1233.pdf
+$ENDCMP
+#
 $CMP DS3231
 D I2C RTC with integrated TCXO oscillator
 K I2C RTC TCXO
@@ -576,6 +748,35 @@ $ENDCMP
 $CMP DS3231M
 D I2C RTC with integrated MEMS resonator
 K I2C RTC MEMS
+$ENDCMP
+#
+$CMP EC3SA-05D12N
+D +/-125mA Regulated 3W DC/DC converter with 1600V isolation, 4.5V-9V input, +/-12V fixed Output Voltage, SIP-8
+K Cincon isolated isolation dc-dc converter transformer
+F https://www.cincon.com/productdownload/SPEC-EC3SA-V18.pdf
+$ENDCMP
+#
+$CMP EPM7064AELC44
+D Altera MAX 7000A CPLD
+K MAX7000A PLCC
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/m7000a.pdf
+$ENDCMP
+#
+$CMP EPM7064AETC44
+D Altera MAX 7000A CPLD
+K MAX 7000A TQFP
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/m7000a.pdf
+$ENDCMP
+#
+$CMP ESP100
+D SCSI Controller
+K SCSI
+$ENDCMP
+#
+$CMP FAS216
+D SCSI Controller
+K SCSI
+F http://www.nextcomputers.org/NeXTfiles/Docs/Hardware/Datasheets/SCSI_Controller/53C90%20Compatible%20Chips/fas216_1061218.pdf
 $ENDCMP
 #
 $CMP FDC37C669
@@ -613,6 +814,11 @@ D 7 segments display, 10 pin, Common Cathode, High Efficiency Red
 K DISPLAY LED 10PIN HDSP-5503
 $ENDCMP
 #
+$CMP HDSP-5521
+D 7 segments display, 2 digits, 18 pin, Common Anode/Common Cathode, High Efficiency Red
+K DISPLAY LED 10PIN HDSP-5521 HDSP-5621 HDSP-5721 HDSP-5523 HDSP-5623 HDSP-5723 CA CC
+$ENDCMP
+#
 $CMP HDSP-5601
 D 7 segments display, 10 pin, Common Annode, Green
 K DISPLAY LED 10PIN HDSP-5601
@@ -648,9 +854,20 @@ D Mounting Hole
 K hole
 $ENDCMP
 #
+$CMP IA188XL
+D Intel 80C188 16-bit Mircoprocessor
+K Intel 80C188 CPU
+$ENDCMP
+#
 $CMP IN-12B
 D IN-12B Cold-cathode Indicator
 K Cold-cathode Indicator Display Nixie Tube IN-12B IN-12A
+$ENDCMP
+#
+$CMP IZ0512S
+D +/-125mA Regulated 3W DC/DC converter with 1600V isolation, 4.5V-9V input, +/-12V fixed Output Voltage, SIP-8
+K XP Power isolated isolation dc-dc converter transformer
+F https://www.xppower.com/portals/0/pdfs/SF_IZ.pdf
 $ENDCMP
 #
 $CMP Intel_Quark_D1000
@@ -683,9 +900,26 @@ D Joystick
 K JOYSTICK
 $ENDCMP
 #
+$CMP Jumper_3_Bridged12
+D Jumper, 3-pole, pins 1+2 closed/bridged
+K Jumper SPDT
+F ~
+$ENDCMP
+#
+$CMP K176IE5
+D 15-stage Binary Ripple Counter with Oscillator
+K counter divider 15-stage oscillator
+$ENDCMP
+#
 $CMP LDO_FIXED_SOT23
 D Fixed LDO
 K Fixed LDO
+$ENDCMP
+#
+$CMP LM311
+D Voltage Comparator, DIP-8/SOIC-8/SSOP-8
+K comp
+F http://www.ti.com/lit/ds/symlink/lm311.pdf
 $ENDCMP
 #
 $CMP LM386
@@ -701,6 +935,12 @@ $ENDCMP
 $CMP LP2951-N
 D Adjustable LDO
 K Adjustable LDO
+$ENDCMP
+#
+$CMP LT1011
+D Voltage Comparator, DIP-8/SOIC-8/TO-5-8
+K comp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1011.pdf
 $ENDCMP
 #
 $CMP M24LR64
@@ -738,6 +978,12 @@ D Microprocessor Supervisory Circuit with SRAM Write Protection
 K Microprocessor Supervisory Circuit SRAM Write Protection
 $ENDCMP
 #
+$CMP MAX734
+D +12V, 120mA Flash Memory Programming Supply
+K +12V, 120mA Supply
+F http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf
+$ENDCMP
+#
 $CMP MCP7940M
 D I2C RTC with SRAM
 K I2C RTC SRAM
@@ -763,6 +1009,18 @@ D DRAM 256Kbit x 4
 K DRAM 256Kx4
 $ENDCMP
 #
+$CMP NCH8200HV
+D High Voltage DC Power Supply, 2.5V-15V input, +170V fixed Output Voltage
+K NCH8200HV high voltage dc-dc converter transformer
+F https://cdn.shopify.com/s/files/1/0475/5328/2215/files/Nixie_DC_Power_Supply_Module_NCH8200HV_Datasheet_EN_v2.0.0.pdf?v=1600188533
+$ENDCMP
+#
+$CMP NCR53C94
+D Advanced SCSI Controller
+K SCSI SCSI2
+F http://bitsavers.trailing-edge.com/components/ncr/scsi/NCR_53C94_53C95_53C96_Data_Sheet_Feb90.pdf
+$ENDCMP
+#
 $CMP NE558
 D Quad Timer
 K Quad Timer
@@ -771,6 +1029,11 @@ $ENDCMP
 $CMP OSC
 D Oscillator, Full Can
 K Oscillator, Full Can
+$ENDCMP
+#
+$CMP PC8477
+D Floppy Disk Controller
+K FDC 82077AA PC8477
 $ENDCMP
 #
 $CMP PCM2902C
@@ -828,6 +1091,12 @@ D Resistor Array - 9 Resistors SIP
 K R DEV
 $ENDCMP
 #
+$CMP RS3-0512D
+D +/-125mA Regulated 3W DC/DC converter with 1600V isolation, 4.5V-9V input, +/-12V fixed Output Voltage, SIP-8
+K RECOM isolated isolation dc-dc converter transformer
+F https://recom-power.com/pdf/Econoline/RS3.pdf
+$ENDCMP
+#
 $CMP Relay_NO
 D Relay Normally Open
 K Relay Normally Open
@@ -856,6 +1125,48 @@ $ENDCMP
 $CMP Rotary_Encoder_SW
 D Rotary Encoder with Switch
 K Rotary Encoder Switch
+$ENDCMP
+#
+$CMP SN75150D
+D Dual RS-232 Driver, SOIC-8
+K RS232 UART Driver Interface
+F https://www.ti.com/lit/ds/symlink/sn75150.pdf
+$ENDCMP
+#
+$CMP SN75150P
+D Dual RS-232 Driver, PDIP-8
+K RS232 UART Driver Interface
+F https://www.ti.com/lit/ds/symlink/sn75150.pdf
+$ENDCMP
+#
+$CMP SN75154D
+D Quad RS-232 Receiver, SOIC-16
+K RS232 UART Receiver Interface
+F https://www.ti.com/lit/ds/symlink/sn75154.pdf
+$ENDCMP
+#
+$CMP SN75154P
+D Quad RS-232 Receiver, PDIP-16
+K RS232 UART Receiver Interface
+F https://www.ti.com/lit/ds/symlink/sn75154.pdf
+$ENDCMP
+#
+$CMP SN75477D
+D Dual Peripheral Driver, SOIC-8
+K Dual Peripheral Driver
+F https://www.ti.com/lit/ds/symlink/sn75477.pdf
+$ENDCMP
+#
+$CMP SN75477P
+D Dual Peripheral Driver, PDIP-8
+K Dual Peripheral Driver
+F https://www.ti.com/lit/ds/symlink/sn75477.pdf
+$ENDCMP
+#
+$CMP SW_SPDT_Omron
+D Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
+F ~
 $ENDCMP
 #
 $CMP Switch_DIP_2_Positions
@@ -908,6 +1219,18 @@ D TMP10x Temperature Sensor With I2C Interface and Alert Function
 K temperature sensor i2c alert
 $ENDCMP
 #
+$CMP TMR3-0522E
+D +/-125mA Regulated 3W DC/DC converter with 1600V isolation, 4.5V-9V input, +/-12V fixed Output Voltage, SIP-8
+K TRACO Power isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr3e.pdf
+$ENDCMP
+#
+$CMP TMR_3-0522E
+D +/-125mA Regulated 3W DC/DC converter with 1600V isolation, 4.5V-9V input, +/-12V fixed Output Voltage, SIP-8
+K TRACO Power isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr3e.pdf
+$ENDCMP
+#
 $CMP TPS3836
 D I2C Temperature Sensor
 K I2C SMBus Two-Wire Temperature Sensor
@@ -921,6 +1244,11 @@ $ENDCMP
 $CMP TVGA9000I
 D Trident TVGA9000i Super VGA Controller
 K VGA TVGA9000i
+$ENDCMP
+#
+$CMP UM61512A
+D SRAM 64Kx8
+K SRAM 64Kx8
 $ENDCMP
 #
 $CMP USB_MICRO_B
@@ -943,6 +1271,26 @@ D Digital Ambient Light Sensor
 K Digital Ambient Light Sensor
 $ENDCMP
 #
+$CMP WD33C93A-DIP
+D SCSI Controller
+K SCSI
+$ENDCMP
+#
+$CMP WD33C93A-PLCC
+D SCSI Controller
+K SCSI
+$ENDCMP
+#
+$CMP WD33C93B-DIP
+D SCSI Controller
+K SCSI
+$ENDCMP
+#
+$CMP WD33C93B-PLCC
+D SCSI Controller
+K SCSI
+$ENDCMP
+#
 $CMP WM8731
 D I2S Audio Codec
 K I2S Audio Codec
@@ -953,9 +1301,20 @@ D Yamaha YM2149 Software-Controlled Sound Generator
 K YM2149 SSG MSX
 $ENDCMP
 #
+$CMP Z80180-PLCC
+D Z180 Microprocessor, 8-bit, CMOS
+K Z180 CPU Microprocessor
+$ENDCMP
+#
 $CMP Z84C00
 D Z80 Microprocessor, 8-bit, CMOS
 K Z80 CPU Microprocessor
+$ENDCMP
+#
+$CMP Z84C15-QFP
+D Intelligent Peripheral Controller, QFP-100
+K Zilog Z80 ICP
+F http://www.zilog.com/docs/z80/ps0182.pdf
 $ENDCMP
 #
 $CMP Z84C30
