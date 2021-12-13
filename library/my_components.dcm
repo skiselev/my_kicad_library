@@ -10,6 +10,11 @@ D Universal Asynchronous Receiver/Transmitter (UART)
 K UAR 16550 16450
 $ENDCMP
 #
+$CMP 16554-PLCC
+D Universal Asynchronous Receiver/Transmitter (UART)
+K UAR 16550 16450
+$ENDCMP
+#
 $CMP 24C16
 D I2C Serial EEPROM
 K EEPROM Serial
@@ -39,6 +44,11 @@ $ENDCMP
 $CMP 28C256
 D 32Kx8 EEPROM
 K 32Kx8 EEPROM
+$ENDCMP
+#
+$CMP 29C256-PLCC
+D Parallel Flash ROM, 32 KiB
+K Flash ROM
 $ENDCMP
 #
 $CMP 29F010
@@ -425,6 +435,11 @@ D Intel 8087 Math Copocessor
 K Intel 8087 FPU
 $ENDCMP
 #
+$CMP 8088
+D Intel 8088 16-bit Mircoprocessor
+K Intel 8088 CPU
+$ENDCMP
+#
 $CMP 80C188
 D Intel 80C188 16-bit Mircoprocessor
 K Intel 80C188 CPU
@@ -553,6 +568,11 @@ $ENDCMP
 $CMP AS6C62256_PWR
 D SRAM 32Kx8
 K SRAM 32Kx8
+$ENDCMP
+#
+$CMP AT29C256
+D Parallel Flash ROM, 32 KiB
+K Flash ROM
 $ENDCMP
 #
 $CMP ATF1508AS-PLCC
@@ -693,6 +713,11 @@ D muRata CERALOCK ceramic resonator with built-in load capacitors
 K ceralock resonator
 $ENDCMP
 #
+$CMP D41256
+D DRAM 256Kbit x 1
+K DRAM 256Kx4
+$ENDCMP
+#
 $CMP D41464
 D DRAM 64Kbit x 4
 K DRAM 64Kx4
@@ -804,6 +829,12 @@ D USB to Serial UART Interface
 K USB Serial
 $ENDCMP
 #
+$CMP GLS27SF512
+D Electrically Erasable Programmable ROM, 64 KiB
+K Flash ROM
+F https://www.greenliant.com/dotAsset/40819.pdf
+$ENDCMP
+#
 $CMP HDSP-5501
 D 7 segments display, 10 pin, Common Annode, High Efficiency Red
 K DISPLAY LED 10PIN HDSP-5501 CA
@@ -857,6 +888,11 @@ $ENDCMP
 $CMP IA188XL
 D Intel 80C188 16-bit Mircoprocessor
 K Intel 80C188 CPU
+$ENDCMP
+#
+$CMP IDT71342
+D High-speed 4K x 8 Dual-Port Static RAM with Semaphore
+F https://www.renesas.com/us/en/document/dst/71342-datasheet
 $ENDCMP
 #
 $CMP IN-12B
@@ -1066,6 +1102,11 @@ D PIC Flash Microcontroller
 K PIC Flash Microcontroller
 $ENDCMP
 #
+$CMP PT8010A
+D Proton PT8010A IBM PC/XT Compatible Chipset
+K Proton PT8010A Chipset
+$ENDCMP
+#
 $CMP Phototransistor
 D Phototransistor
 K Phototransistor
@@ -1214,6 +1255,18 @@ D Tactile Switch - Vertical
 K Switch Tactile Vertical
 $ENDCMP
 #
+$CMP TBA1-0512E
+D 12V, 85mA, Regulated 1W DC/DC converter with 1060V isolation, SIP-7
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1e_datasheet.pdf
+$ENDCMP
+#
+$CMP TBA1-xxxxE
+D Regulated 1W DC/DC converter with 1060V isolation, SIP-7
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1e_datasheet.pdf
+$ENDCMP
+#
 $CMP TMP102
 D TMP10x Temperature Sensor With I2C Interface and Alert Function
 K temperature sensor i2c alert
@@ -1271,6 +1324,16 @@ D Digital Ambient Light Sensor
 K Digital Ambient Light Sensor
 $ENDCMP
 #
+$CMP W27C512-PLCC
+D Electrically Erasable Programmable ROM, 64 KiB
+K Flash ROM
+$ENDCMP
+#
+$CMP W27E512
+D Electrically Erasable Programmable ROM, 64 KiB
+K Flash ROM
+$ENDCMP
+#
 $CMP WD33C93A-DIP
 D SCSI Controller
 K SCSI
@@ -1301,14 +1364,33 @@ D Yamaha YM2149 Software-Controlled Sound Generator
 K YM2149 SSG MSX
 $ENDCMP
 #
+$CMP Z08400
+D 8-bit General Purpose Microprocessor, DIP-40, NMOS
+K Z80 CPU
+F www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080
+$ENDCMP
+#
+$CMP Z08400_copy
+D 8-bit General Purpose Microprocessor, DIP-40, NMOS
+K Z80 CPU
+F www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080
+$ENDCMP
+#
 $CMP Z80180-PLCC
 D Z180 Microprocessor, 8-bit, CMOS
 K Z180 CPU Microprocessor
 $ENDCMP
 #
 $CMP Z84C00
-D Z80 Microprocessor, 8-bit, CMOS
-K Z80 CPU Microprocessor
+D 8-bit General Purpose Microprocessor, DIP-40, CMOS
+K Z80 CPU
+F www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080
+$ENDCMP
+#
+$CMP Z84C00-PLCC
+D 8-bit General Purpose Microprocessor, DIP-40, CMOS
+K Z80 CPU
+F www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080
 $ENDCMP
 #
 $CMP Z84C15-QFP
