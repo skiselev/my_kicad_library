@@ -703,6 +703,11 @@ D SIMM Memory Module, 30 pin
 K SIMM30 SIMM memory module
 $ENDCMP
 #
+$CMP Conn_SIMM72
+D SIMM Memory Module, 72 pin
+K SIMM72 SIMM memory module
+$ENDCMP
+#
 $CMP Crystal_4_Pin
 D 4 pin crystal
 K Quartz, Resonator, Ceramic, Filter
@@ -804,6 +809,16 @@ K SCSI
 F http://www.nextcomputers.org/NeXTfiles/Docs/Hardware/Datasheets/SCSI_Controller/53C90%20Compatible%20Chips/fas216_1061218.pdf
 $ENDCMP
 #
+$CMP FDC37C651
+D Super I/O Floppy Disk Controller
+K FDC37C661 Floppy Controller FDC
+$ENDCMP
+#
+$CMP FDC37C665GT
+D High-Performance Multi-Mode Parallel Prot Super I/O Floppy Disk Controller
+K FDC37C665GT Floppy Controller FDC
+$ENDCMP
+#
 $CMP FDC37C669
 D PC 98/99 Compliant Super I/O Floppy Disk Controller with Infrared Support
 K FDC37C669 Floppy Controller FDC
@@ -885,6 +900,16 @@ D Mounting Hole
 K hole
 $ENDCMP
 #
+$CMP HP_5082-7432
+D Dual 7 segments display, 10 pin, Common Cathode, Red
+K DISPLAY LED 12PIN CC
+$ENDCMP
+#
+$CMP HY514260B_SOJ40
+D DRAM 256Kbit x 16 in SOJ40 package
+K DRAM 256Kx16 SOJ40
+$ENDCMP
+#
 $CMP IA188XL
 D Intel 80C188 16-bit Mircoprocessor
 K Intel 80C188 CPU
@@ -904,6 +929,10 @@ $CMP IZ0512S
 D +/-125mA Regulated 3W DC/DC converter with 1600V isolation, 4.5V-9V input, +/-12V fixed Output Voltage, SIP-8
 K XP Power isolated isolation dc-dc converter transformer
 F https://www.xppower.com/portals/0/pdfs/SF_IZ.pdf
+$ENDCMP
+#
+$CMP Intel_P24T
+D Intel P24T Pentium Overdrive Microprocessor, PGA-235
 $ENDCMP
 #
 $CMP Intel_Quark_D1000
@@ -942,9 +971,63 @@ K Jumper SPDT
 F ~
 $ENDCMP
 #
+$CMP Jumper_3_Bridged12_Passive
+D Jumper, 3-pole, pins 1+2 closed/bridged
+K Jumper SPDT
+F ~
+$ENDCMP
+#
 $CMP K176IE5
 D 15-stage Binary Ripple Counter with Oscillator
 K counter divider 15-stage oscillator
+$ENDCMP
+#
+$CMP LDD-E2802RI
+D Dual 7 segments display, 10 pin, Common Anode, Green
+K DISPLAY LED 10PIN CA
+F https://www.mouser.com/datasheet/2/244/LUMXD00050_238-2551071.pdf
+$ENDCMP
+#
+$CMP LDD-E2804RI
+D Dual 7 segments display, 10 pin, Common Anode, Red
+K DISPLAY LED 10PIN CA
+F https://www.mouser.com/datasheet/2/244/LUMXD00050_238-2551071.pdf
+$ENDCMP
+#
+$CMP LDD-E2806RI
+D Dual 7 segments display, 10 pin, Common Anode, Red
+K DISPLAY LED 10PIN CA
+F https://www.mouser.com/datasheet/2/244/LUMXD00050_238-2551071.pdf
+$ENDCMP
+#
+$CMP LDD-E2807RI-USB
+D Dual 7 segments display, 10 pin, Common Anode, Blue
+K DISPLAY LED 10PIN CA
+F https://www.mouser.com/datasheet/2/244/LUMXD00050_238-2551071.pdf
+$ENDCMP
+#
+$CMP LDD-F2802RI
+D Dual 7 segments display, 10 pin, Common Cathode, Green
+K DISPLAY LED 10PIN CC
+F https://www.mouser.com/datasheet/2/244/LUMXD00050_238-2551071.pdf
+$ENDCMP
+#
+$CMP LDD-F2804RI
+D Dual 7 segments display, 10 pin, Common Cathode, Red
+K DISPLAY LED 10PIN CC
+F https://www.mouser.com/datasheet/2/244/LUMXD00050_238-2551071.pdf
+$ENDCMP
+#
+$CMP LDD-F2806RI
+D Dual 7 segments display, 10 pin, Common Cathode, Red
+K DISPLAY LED 10PIN CC
+F https://www.mouser.com/datasheet/2/244/LUMXD00050_238-2551071.pdf
+$ENDCMP
+#
+$CMP LDD-F2807RI-USB
+D Dual 7 segments display, 10 pin, Common Cathode, Blue
+K DISPLAY LED 10PIN CC
+F https://www.mouser.com/datasheet/2/244/LUMXD00050_238-2551071.pdf
 $ENDCMP
 #
 $CMP LDO_FIXED_SOT23
@@ -977,6 +1060,17 @@ $CMP LT1011
 D Voltage Comparator, DIP-8/SOIC-8/TO-5-8
 K comp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1011.pdf
+$ENDCMP
+#
+$CMP LTD-2601G
+D Dual 7 segments display, 10 pin, Common Anode, Green
+K DISPLAY LED 10PIN CA
+F https://www.mouser.com/datasheet/2/239/lite-on_lites09078-1-1737222.pdf
+$ENDCMP
+#
+$CMP LTD-2701P
+D Dual 7 segments display, 10 pin, Common Cathode, High Efficiency Red
+K DISPLAY LED 10PIN CC
 $ENDCMP
 #
 $CMP M24LR64
@@ -1060,6 +1154,26 @@ $ENDCMP
 $CMP NE558
 D Quad Timer
 K Quad Timer
+$ENDCMP
+#
+$CMP OPTI_82C611A
+D VESA Local Bus IDE Controller
+K VESA Local Bus VL IDE Controller VIC
+$ENDCMP
+#
+$CMP OPTi_82C206_PLCC
+D 82C206 Integrated Peripheral Controller
+K 82C206 PLCC
+$ENDCMP
+#
+$CMP OPTi_82C206_PQFP
+D 82C206 Integrated Peripheral Controller
+K 82C206 PQFP
+$ENDCMP
+#
+$CMP OPTi_82C495XLC
+D OPTi 82C495XLC AT chipset for 386DX and 486 processors
+K OPTi 82C495XLC 386DX 486
 $ENDCMP
 #
 $CMP OSC
@@ -1265,6 +1379,21 @@ $CMP TBA1-xxxxE
 D Regulated 1W DC/DC converter with 1060V isolation, SIP-7
 K Traco isolated isolation dc-dc converter transformer
 F https://www.tracopower.com/sites/default/files/products/datasheets/tba1e_datasheet.pdf
+$ENDCMP
+#
+$CMP TGUI9400CXi_VLB
+D Trident TGUI9400CXi Super VGA Controller in VLB Mode
+K VGA TGUI9400 TGUI9400CXi SVGA VLB
+$ENDCMP
+#
+$CMP TGUI9420DGi
+D Trident TGUI9420DGi Super VGA Controller in VLB Mode
+K VGA TGUI9400 TGUI9420DGi SVGA VLB
+$ENDCMP
+#
+$CMP TGUI9440
+D Trident TGUI9440 Super VGA Controller in VLB Mode
+K VGA TGUI9440 SVGA VLB
 $ENDCMP
 #
 $CMP TMP102
