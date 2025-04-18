@@ -1,6 +1,6 @@
 (footprint "Res_762" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 626C4978)
+  (tedit 662AE3A8)
   (descr "Resistor, 7.62mm lead spacing")
   (tags "RESISTOR")
   (autoplace_cost180 10)
@@ -25,9 +25,9 @@
   (fp_arc (start -2.794 -0.762) (mid -2.719605 -0.941605) (end -2.54 -1.016) (layer "F.SilkS") (width 0.12) (tstamp e7d44998-7d27-4371-9f3d-0a968eddee9d))
   (pad "1" thru_hole circle (at -3.81 0) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 67c84900-f0bc-4178-b066-cd7e9287edf9))
   (pad "2" thru_hole circle (at 3.81 0) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 2873ef74-defc-4438-bbcd-6af568ecee11))
-  (model "discret/resistor.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 0.3 0.3 0.3))
+  (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+    (offset (xyz -3.81 0 0))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )

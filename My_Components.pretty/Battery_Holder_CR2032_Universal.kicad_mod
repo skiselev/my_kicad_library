@@ -1,6 +1,6 @@
 (footprint "Battery_Holder_CR2032_Universal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 65DD1871)
+  (tedit 662AE319)
   (descr "Battery Holder, CR2032, Through Hole, Universal")
   (tags "BATT HOLDER CR2032 TH")
   (attr through_hole)
@@ -49,4 +49,9 @@
   (fp_circle (center -1.905 0) (end 9.144 0) (layer "F.SilkS") (width 0.12) (fill none) (tstamp b9e4c881-4929-46b7-81ec-144ca6f6bde3))
   (pad "1" thru_hole circle (at -14.00048 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask) (tstamp b8994101-0ed3-441f-8ed0-52b1a6ad188a))
   (pad "2" thru_hole circle (at 5.99948 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask) (tstamp 431b05e5-d9f1-4a42-a7b5-8c545157fe0b))
+  (model "${KICAD6_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_103_1x20mm.wrl"
+    (offset (xyz -14.25 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
